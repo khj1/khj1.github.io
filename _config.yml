@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 김한준
+title: Java 백엔드 개발자
+email: dhepd8849@gmail.com
+# website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  khj1
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,25 +48,49 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  - 안녕하세요. 끊임없이 성장을 추구하는 개발자 김한준입니다.
+  - 지속적인 성장을 위해선 <mark>꾸준함</mark>이 중요하다고 생각하기에 깃허브에 학습한 내용을 정리하고 있습니다.
+  - 현재 저는 클린코드와 TDD에 관심을 갖고 공부중입니다.
 
 content:
-  - title: Projects # Title for the section
+  - title: Skill 
+    layout: list 
+    content:
+      - layout: left
+        title: Backend
+        description: | 
+          - Java
+          - Spring MVC, Spring Boot, Spring Security, Spring Data JPA, Spring Rest Docs
+          - JPA, Querydsl, Hibernate
+          - Junit5, Mockito
+          - Gradle, Maven
+
+      - layout: left
+        title: Frontend
+        description: | 
+          - HTML5, CSS3, ES6, React
+          - React, React-redux
+
+      - layout: left
+        title: DevOps
+        description: | 
+          - AWS - EC2, S3, RDS, CloudFront
+          - MySQL, MariaDB, Oracle
+          - Jenkins, Github-action
+
+      - layout: left
+        title: Collaboration & Tools
+        description: | 
+          - IntelliJ, Eclipse, VS Code
+          - Git, Sourcetree
+
+  - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+      - layout: left
+        title: 롤업
+        link: https://github.com/khj1/lolup-backend-project
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
@@ -90,27 +114,50 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: KOSMO 82기
+        caption: 2021.03 - 2021.09
+        sub_title: 오픈프레임워크 활용 디지털융합 SW엔지니어 양성과정 수료
+        # quote: >
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - Java, Spring 기반 웹 개발에 필요한 전반적인 기본기 교육
+          - 팀 프로젝트 진행
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: 현재 학습 내용과 추후 계획 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 넥스트스탭 자바 플레이 그라운드
+        link: https://edu.nextstep.camp/s/RFY359FE
+        sub_title: TDD, OOP, 클린코드 교육
+        caption: 2021-10 ~ 진행중
+        quote: >
+          자바지기 박재성님 교육
+        description: | # this will include new lines to allow paragraphs
+          - 올바른 TDD와 클린코드 작성을 위해 수강중
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: 현재 학습 내용과 추후 계획 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 넥스트스텝 자바 플레이 그라운드
+        link: https://edu.nextstep.camp/s/RFY359FE
+        sub_title: TDD, OOP, 클린코드 교육
+        caption: 2021-10 ~ 진행중
+        quote: >
+          자바지기 박재성님 교육
+        description: | # this will include new lines to allow paragraphs
+          - 올바른 TDD와 클린코드 작성을 위해 수강
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - layout: left
+        title: 패스트캠퍼스 AWS 인프라구축과 DevOps 운영
+        link: https://fastcampus.co.kr/dev_online_awsdevops
+        caption: 추후 학습 예정
+        quote: >
+          단계별로 구성된 AWS 인프라 구축과 DevOps 운영 교육
+        description: | # this will include new lines to allow paragraphs
+          - 개인 프로젝트 배포간 막연하게 학습했던 DevOps 내용들을 체화시키기 위해 수강
+          - 우선적으로 초급 단계 로드맵을 따라 학습할 예정입니다. 
+
 
 # Footer
 footer_show_references: true
