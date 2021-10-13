@@ -46,7 +46,7 @@ github_username:  khj1
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile5.png
 about_content: | # this will include new lines to allow paragraphs
   - 안녕하세요. 끊임없이 성장을 추구하는 개발자 김한준입니다.
   - 코드로 다양한 생각을 표현하는 과정에 매료되어 개발자를 꿈꾸게 되었습니다.
@@ -77,6 +77,7 @@ content:
         description: | 
           - AWS - EC2, S3, RDS, CloudFront
           - MySQL, MariaDB, Oracle
+          - Docker
           - Jenkins, Github-action
 
       - layout: left
@@ -85,14 +86,14 @@ content:
           - IntelliJ, Eclipse, VS Code
           - Git, Sourcetree
 
-  - title: Personal Projects # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 롤업
         link: https://github.com/khj1/lolup-backend-project
         quote: >
-          KOSMO 82기 팀프로젝트입니다. 수료 이후에도 꾸준히 리팩토링하고 있습니다.
+          KOSMO 82기 팀프로젝트입니다. 수료이후에도 꾸준히 리팩토링하고 있습니다.
         description: |
           - League of Legend 유저 매칭 시스템
           - [Riot API](https://developer.riotgames.com/apis)를 활용해 사용자들이 유저들의 정보를 명확하게 파악할 수 있도록 구현
