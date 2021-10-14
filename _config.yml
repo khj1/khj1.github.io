@@ -122,6 +122,8 @@ content:
           자바지기 박재성님 교육
         description: | # this will include new lines to allow paragraphs
           - TDD, OOP, 클린코드 교육
+          - 롤업 프로젝트를 진행하며 테스트의 중요함을 인지하면서도 제대로된 테스트 코드를 작성하지 못해 아쉬움이 남았습니다.
+          - 프로덕션 코드 작성 이후 테스트를 진행하는 것보다 TDD를 실천하는 것이 좀 더 효율적인 방법이라 생각하여 해당 교육을 수강하게 되었습니다.
 
       - layout: left
         title: 패스트캠퍼스 AWS 인프라구축과 DevOps 운영
@@ -130,7 +132,7 @@ content:
         quote: >
           단계별로 구성된 AWS 인프라 구축과 DevOps 운영 교육
         description: | # this will include new lines to allow paragraphs
-          - 개인 프로젝트 배포간, 막연하게 학습했던 DevOps 내용들을 명확하게 이해하기 위해 수강
+          - 개인 프로젝트 배포간, 막연하게 학습했던 DevOps 내용들을 명확하게 이해하기 위해 수강하게 되었습니다.
           - 우선적으로 초급 단계 로드맵을 따라 학습할 예정입니다. 
 
 
